@@ -1,0 +1,26 @@
+{
+    "name": "wulin/taobaosdk",
+    "description": "official taobao php sdk",
+    "type": "library",
+    "homepage": "https://github.com/xiaozhuyuan/taobaosdk.git",
+    "authors": [
+        {
+            "name": "wulin",
+            "email": "1799223709@qq.com"
+        }
+    ],
+    "keywords": [
+        "alipay",
+        "alipay sdk",
+        "alipay php sdk"
+      ],
+      "license": "MIT",
+      "require": {
+        "php": ">=5.0"
+      },
+      "autoload": {
+        "psr-4": {
+          "taobaosdk\\": "src"
+        }
+      }
+}
